@@ -1,2 +1,2 @@
-# Document-summarizer-
-Local document summarizer using Ollama and Llama 3.2
+# homeBot
+Local chatbot using Ollama and Llama 3.2
