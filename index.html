@@ -5,12 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document Summarizer</title>
     <link rel="stylesheet" href="style.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.min.js"></script>
 <script src="script.js" defer></script>
 </head>
 <body>
     <main>
         <h1> Document Summarizer</h1>
-        <textarea id="text-input" placeholder="Klistra in din text här"></textarea>
+        <div id="file-info"></div>
+
+        <textarea id="text-input" placeholder="Klistra in din text eller släpp din fil här"></textarea>
         
         <button id="summarize-btn">Sammanfatta</button>
         

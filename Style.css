@@ -38,6 +38,24 @@ h1 {
     margin-bottom: 1.5rem;
 }
 
+#file-info {
+    display: none;
+    padding: 0.5rem 1rem;
+    border: 1px solid var(--border);
+    border-radius: 0.5rem;
+    margin-bottom: 0.5rem;
+    font-size: 0.875rem;
+}
+
+.remove-btn {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 0.75rem;
+    padding: 0 0.25rem;
+    margin-left: 0.25rem;
+}
+
 textarea {
     width: 100%;
     min-height: 12rem;
